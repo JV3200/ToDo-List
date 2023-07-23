@@ -1,3 +1,74 @@
-A simple javascript Todo List app to practice while and for loop. 
+# To-Do List Application Readme
 
-To display on webpage run live server. 
+This is a simple interactive To-Do List application written in JavaScript. It allows users to manage their to-do tasks by adding new tasks, viewing the current list, and deleting tasks based on their index.
+
+## Getting Started
+
+To use the To-Do List application, follow these steps:
+
+1. Open your favorite web browser.
+2. Create a new HTML file and add the following script to it:
+
+```html
+<script>
+  // Place the JavaScript code provided in this script tag
+</script>
+```
+
+3. Save the HTML file.
+4. Open the HTML file in your web browser.
+
+## Usage
+
+Once you've opened the HTML file, a prompt will appear asking, "What would you like to do?". You can interact with the application by entering one of the following commands:
+
+- `list`: Displays the current to-do list along with their respective index numbers.
+- `new`: Adds a new task to the to-do list.
+- `delete`: Deletes a task from the to-do list based on the index number provided.
+
+### Examples
+
+#### Listing Tasks
+
+If you enter `list`, the application will display the current to-do list as follows:
+
+```
+0: collect mail
+********
+1: clean room
+********
+2: walk dog
+********
+```
+
+#### Adding a New Task
+
+If you enter `new`, the application will prompt you to enter the new to-do task. For example:
+
+```
+What is the new todo?
+> Buy groceries
+Buy groceries added to the list
+```
+
+#### Deleting a Task
+
+If you enter `delete`, the application will prompt you to enter the index number of the task you want to delete. For example:
+
+```
+Ok, enter an index to delete!
+> 1
+Deleted todo clean room
+```
+
+## Exiting the Application
+
+To exit the application, you can type either `quit` or `q` in response to the "What would you like to do?" prompt. Upon exiting, the application will display "Goodbye!" in the console.
+
+## Note
+
+Please note that this is a simple demonstration of a to-do list application and does not persist data between sessions. When you close the web page, the data will be reset.
+
+Feel free to customize and expand this code to add more features and functionalities to suit your needs.
+
+Happy organizing your to-do tasks!
