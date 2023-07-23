@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# ToDo List Application
-=======
 # To-Do List Application Readme
->>>>>>> 0ad948460d16da40a8d29422aa9a5a02a5cd2209
 
 This is a simple interactive To-Do List application written in JavaScript. It allows users to manage their to-do tasks by adding new tasks, viewing the current list, and deleting tasks based on their index.
 
@@ -10,7 +6,6 @@ This is a simple interactive To-Do List application written in JavaScript. It al
 
 To use the To-Do List application, follow these steps:
 
-<<<<<<< HEAD
 1. Clone the repository to your local machine:
 
 ```bash
@@ -33,27 +28,6 @@ ToDo List
 ```
 
 To interact with the application, simply type one of the provided commands (e.g., "new", "list", "delete", "quit") in the prompt that appears. The application will then perform the corresponding action based on your input.
-=======
-1. Open your favorite web browser.
-2. Create a new HTML file and add the following script to it:
-
-```html
-<script>
-  // Place the JavaScript code provided in this script tag
-</script>
-```
-
-3. Save the HTML file.
-4. Open the HTML file in your web browser.
-
-## Usage
-
-Once you've opened the HTML file, a prompt will appear asking, "What would you like to do?". You can interact with the application by entering one of the following commands:
-
-- `list`: Displays the current to-do list along with their respective index numbers.
-- `new`: Adds a new task to the to-do list.
-- `delete`: Deletes a task from the to-do list based on the index number provided.
->>>>>>> 0ad948460d16da40a8d29422aa9a5a02a5cd2209
 
 ### Examples
 
@@ -92,11 +66,7 @@ Deleted todo clean room
 
 ## Exiting the Application
 
-<<<<<<< HEAD
-To exit the application, you can type either `quit` or `q` in response to the "what would you like to do?" prompt. Upon exiting, the application will display "Goodbye!" in the console.
-=======
 To exit the application, you can type either `quit` or `q` in response to the "What would you like to do?" prompt. Upon exiting, the application will display "Goodbye!" in the console.
->>>>>>> 0ad948460d16da40a8d29422aa9a5a02a5cd2209
 
 ## Note
 
